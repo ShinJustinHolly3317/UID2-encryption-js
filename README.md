@@ -7,4 +7,4 @@ This is based on TTD UID2 generate/refresh enpoints encryption requirements. The
 
 2. run `npm run generate` to generate UID2 Token by a specific Email.
 
-3. run `npm run refresh <refreshResponseKey> <refreshToken>` to get a new UID2 Token with refreshResponseKey and refreshToken as arguments.
+3. run `npm run refresh <refreshResponseKey> <refreshToken>` to get a new UID2 Token with `refreshResponseKey` and `refreshToken` as arguments.
