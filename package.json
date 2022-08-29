@@ -1,0 +1,25 @@
+{
+  "name": "uid2-encrypt",
+  "version": "1.0.0",
+  "description": "This is based on TTD UID2 generate/refresh enpoints encryption requirements. There is only **Python example** in [official document](https://github.com/UnifiedID2/uid2docs/blob/main/api/v2/encryption-decryption.md), and the encryption rule is kinda complicated. That's the reason I made this JS version for quick translation.",
+  "main": "encrypt.js",
+  "scripts": {
+    "generate": "node -r dotenv/config generate-uid2.js",
+    "refresh": "node -r dotenv/config refresh-uid2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinJustinHolly3317/UID2-encryption.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShinJustinHolly3317/UID2-encryption/issues"
+  },
+  "homepage": "https://github.com/ShinJustinHolly3317/UID2-encryption#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
